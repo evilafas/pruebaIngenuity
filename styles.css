@@ -5,8 +5,16 @@ body{
 }
 
 .header{
+    position: fixed;
+    width: 1957px;
     height: 120px;
     background-color: #003473;
+    opacity: 0.86;
+}
+
+video {
+    width: 1920px;
+    height: 1080px;
 }
 
 .logo {
@@ -113,3 +121,44 @@ body{
     font-size: 20px;
     line-height: 44px;
 }
+
+.comment{
+    position: absolute;
+    top: 775.95px;
+    width: 98.48px;
+    right: 142.84px;
+    height: 98.48px;
+    font-size: 100px;
+    color: #FF7E54;
+}
+
+.joinus{
+    position: absolute;
+    right: 160px;
+    top: 890px;
+    width: 157px;
+    height: 55px;
+    background-color: #FAFAFA;
+    border-radius: 28px;
+    padding-top: 10px;
+    
+}
+
+.joinus p{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.joinus span {
+    font-size: 41px;
+    background-color: #5AD3DF;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+
