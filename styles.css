@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+body{
+    margin: 0;
+}
+
+.header{
+    height: 120px;
+    background-color: #003473;
+}
+
+.logo {
+    height: 87.71px;
+    width: 120px;
+    margin-left: 176.5px;
+    margin-top: 16.14px;
+    margin-bottom: 16.14px;
+}
+
+.home{
+    position: absolute;
+    left: 530px;
+    top: 51px;
+    color: #FAFAFA;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header a {
+    color: #FAFAFA;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.thecrew{
+    position: absolute;
+    left: 680px;
+    top: 51px;
+}
+
+.events{
+    position: absolute;
+    left: 838px;
+    top: 51px;
+}
+
+.news{
+    position: absolute;
+    left: 974px;
+    top: 51px;
+}
+
+.virtualOfice{
+    position: absolute;
+    left: 1147px;
+    top: 42px;
+    width: 70px;
+    text-align: center;
+}
+
+.contact{
+    position: absolute;
+    left: 1298px;
+    top: 51px;
+}
+
+.btnNameHeader{
+    position: absolute;
+    left: 1453px;
+    top: 39px;
+    width: 210px;
+    height: 41px;
+    background-color: #5AD3DF;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fbicon{
+    position: absolute;
+    left: 1690px;
+    top: 37px;
+    background-color: #FF7E54;
+    display: inline-block;
+    width: 46px;
+    height: 44px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+
+.fbicon i {
+    font-size: 20px;
+    line-height: 44px;
+}
+
+.insta{
+    position: absolute;
+    left: 1751px;
+    top: 37px;
+    background-color: #FF7E54;
+    display: inline-block;
+    width: 46px;
+    height: 44px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+.insta i {
+    font-size: 20px;
+    line-height: 44px;
+}
