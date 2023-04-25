@@ -1,198 +1,385 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
-body{
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  margin: 0;
 }
 
-.header{
-    position: fixed;
-    width: 1920px;
-    height: 120px;
-    background-color: #003473;
-    opacity: 0.86;
+.header {
+  position: fixed;
+  width: 1920px;
+  height: 120px;
+  background-color: #003473;
+  opacity: 0.86;
+  z-index: 3;
 }
 
 video {
-    width: 1920px;
-    height: 1080px;
+  width: 1920px;
+  height: 1080px;
 }
 
 .logo {
-    height: 87.71px;
-    width: 120px;
-    margin-left: 176.5px;
-    margin-top: 16.14px;
-    margin-bottom: 16.14px;
+  height: 87.71px;
+  width: 120px;
+  margin-left: 176.5px;
+  margin-top: 16.14px;
+  margin-bottom: 16.14px;
 }
 
-.home{
-    position: absolute;
-    left: 530px;
-    top: 51px;
-    color: #FAFAFA;
-    text-decoration: none;
-    font-size: 18px;
+.home {
+  position: absolute;
+  left: 530px;
+  top: 51px;
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .header a {
-    color: #FAFAFA;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Red Hat Display', sans-serif;
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Red Hat Display", sans-serif;
 }
 
-.thecrew{
-    position: absolute;
-    left: 680px;
-    top: 51px;
+.thecrew {
+  position: absolute;
+  left: 680px;
+  top: 51px;
 }
 
-.events{
-    position: absolute;
-    left: 838px;
-    top: 51px;
+.events {
+  position: absolute;
+  left: 838px;
+  top: 51px;
 }
 
-.news{
-    position: absolute;
-    left: 974px;
-    top: 51px;
+.news {
+  position: absolute;
+  left: 974px;
+  top: 51px;
 }
 
-.virtualOfice{
-    position: absolute;
-    left: 1147px;
-    top: 42px;
-    width: 70px;
-    text-align: center;
+.virtualOfice {
+  position: absolute;
+  left: 1147px;
+  top: 42px;
+  width: 70px;
+  text-align: center;
 }
 
-.contact{
-    position: absolute;
-    left: 1298px;
-    top: 51px;
+.contact {
+  position: absolute;
+  left: 1298px;
+  top: 51px;
 }
 
-.btnNameHeader{
-    position: absolute;
-    left: 1453px;
-    top: 39px;
-    width: 210px;
-    height: 41px;
-    background-color: #5AD3DF;
-    color: black;
-    border-radius: 20px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+.btnNameHeader {
+  position: absolute;
+  left: 1453px;
+  top: 39px;
+  width: 210px;
+  height: 41px;
+  background-color: #5ad3df;
+  color: black;
+  border-radius: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.fbicon{
-    position: absolute;
-    left: 1690px;
-    top: 37px;
-    background-color: #FF7E54;
-    display: inline-block;
-    width: 46px;
-    height: 44px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 100%;
+.fbicon {
+  position: absolute;
+  left: 1690px;
+  top: 37px;
+  background-color: #ff7e54;
+  display: inline-block;
+  width: 46px;
+  height: 44px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
 }
 
 .fbicon i {
-    font-size: 20px;
-    line-height: 44px;
+  font-size: 20px;
+  line-height: 44px;
 }
 
-.insta{
-    position: absolute;
-    left: 1751px;
-    top: 37px;
-    background-color: #FF7E54;
-    display: inline-block;
-    width: 46px;
-    height: 44px;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 100%;
+.insta {
+  position: absolute;
+  left: 1751px;
+  top: 37px;
+  background-color: #ff7e54;
+  display: inline-block;
+  width: 46px;
+  height: 44px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 100%;
 }
 .insta i {
-    font-size: 20px;
-    line-height: 44px;
+  font-size: 20px;
+  line-height: 44px;
 }
 
-.comment{
-    position: absolute;
-    top: 775.95px;
-    width: 98.48px;
-    left: 1550px;    
-    height: 98.48px;
-    font-size: 100px;
-    color: #FF7E54;
+.comment {
+  position: absolute;
+  top: 775.95px;
+  width: 98.48px;
+  left: 1550px;
+  height: 98.48px;
+  font-size: 100px;
+  color: #ff7e54;
 }
 
-.joinus{
-    position: absolute;
-    left: 1499px;
-    top: 890px;
-    width: 157px;
-    height: 55px;
-    background-color: #FAFAFA;
-    border-radius: 28px;
-    padding-top: 10px;
-    
+.joinus {
+  position: absolute;
+  left: 1499px;
+  top: 890px;
+  width: 157px;
+  height: 55px;
+  background-color: #fafafa;
+  border-radius: 28px;
+  padding-top: 10px;
 }
 
-.joinus p{
-    position: absolute;
-    top: 0;
-    right: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Segoe UI', sans-serif;
+.joinus p {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", sans-serif;
 }
-
 
 .joinus span {
-    font-size: 41px;
-    background-color: #5AD3DF;
-    border-radius: 100%;
+  font-size: 41px;
+  background-color: #5ad3df;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.mouse {
+  position: absolute;
+  left: 936px;
+  top: 894px;
+}
+
+.linea {
+  height: 84px;
+  position: absolute;
+  left: 957px;
+  top: 995px;
+  border-right: 5px solid #ff7e54;
+}
+
+.imgevents {
+  height: 100px;
+  width: 150px;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
+  height: 1080px;
+}
+
+.events-container h1 {
+  font-size: 60px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #245086;
+}
+
+.gallery {
+  display: flex;
+  width: 100%;
+  height: 511px;
+  justify-content: center;
+  gap: 16px;
+}
+
+.eventsCard {
+  width: 398px;
+  height: 511px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.eventsCard h1 {
+  position: absolute;
+  width: 347px;
+  height: 130px;
+  margin-top: 229px;
+  margin-left: 26px;
+  color: white;
+  z-index: 2;
+}
+
+.eventsCard img {
+  border-radius: 20px;
+  filter: brightness(70%);
+}
+
+.eventsCard hr {
+  position: relative;
+  top: -120px;
+  width: 64px;
+  rotate: 90deg;
+}
+
+.events-container input {
+  margin-top: 50px;
+  width: 210px;
+  height: 41px;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #ff7e54;
+  border: none;
+  border-radius: 20px;
+}
+
+.events-container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+}
+
+.figure {
+  position: absolute;
+  left: 1171px;
+  top: 1469px;
+  height: 590px;
+  width: 750px;
+  background-color: #e3e3e3;
+  -webkit-border-radius: 150px 0px 0px 150px;
+  -moz-border-radius: 150px 0px 0px 150px;
+  border-radius: 150px 0px 0px 150px;
+}
+
+.sep {
+  position: absolute;
+  left: 865px;
+  width: 189.5px;
+  margin-top: 100px;
+  rotate: 90deg;
+}
+
+.thecrewContainer {
+  width: 1920px;
+  height: 1080px;
+  margin-top: 100px;
+  background-color: #f5f5f5;
+  z-index: 1;
+}
+
+.theCrewCard {
+  position: absolute;
+  margin-top: 140px;
+  left: 140px;
+  width: 1640px;
+  height: 711px;
+  border-radius: 20px;
+  background-color: #fafafa;
+  -webkit-box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
+}
+
+.theCrewCard h1 {
+  font-size: 107px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #154e85;
+  font-weight: 400;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.theCrewCard h1 span {
+  color: #ff7e54;
+  font-weight: bold;
+}
+
+.theCrewCard input {
+  width: 210px;
+  height: 41px;
+  color: white;
+  background-color: #ff7e54;
+  margin-left: 300px;
+  border: none;
+  border-radius: 20px;
+}
+
+.theCrewCard p {
+  margin-left: 100px;
+  margin-top: -50px;
+  width: 741px;
+  height: 188px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+}
+
+.theCrewCard img {
+  width: 718px;
+  height: 592px;
+  position: absolute;
+  left: 850px;
+  margin-top: -400px;
+  border-radius: 40px;
+}
+
+.divcrew {
+  position: absolute;
+  display: flex;
+  background-color: #FFFFFF;
+  height: 252px;
+  width: 554px;
+  -webkit-box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
+  z-index: 2;
+  margin-top: 700px;
+  left: 650px;
+  border-radius: 20px;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.element{
+    padding-top: 50px;
     padding: 10px;
+    width: 270px;
 }
 
-.mouse{
-    position: absolute;
-    left: 936px;
-    top: 894px;
+.element img{
+  margin-bottom: -30px;
 }
 
-.linea{
-    height: 84px;
-    position: absolute;
-    left: 957px;
-    top: 995px;
-    border-right: 5px solid #FF7E54;
-
+.element h1{
+    color: #FF7E54;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 63px;
+    margin-bottom: 20px;
+  
 }
 
-.imgevents{
-    height: 100px;
-    width: 150px;
+.element p {
+  color: #235286;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 20px;
 }
 
-.events-container{
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
-    align-items: center;
-    justify-content: center;
-    width: 1920px;
-    
-}
-
-.events-container h1{
- font-size: 60px;
- font-family: 'Red Hat Display', sans-serif;
-color: #245086;
+.divcrew hr{
+  margin-top: 70px;
+  height: 127px;
+  color: #235286;
 }
