@@ -6,7 +6,7 @@ body{
 
 .header{
     position: fixed;
-    width: 1957px;
+    width: 1920px;
     height: 120px;
     background-color: #003473;
     opacity: 0.86;
@@ -126,7 +126,7 @@ video {
     position: absolute;
     top: 775.95px;
     width: 98.48px;
-    right: 142.84px;
+    left: 1550px;    
     height: 98.48px;
     font-size: 100px;
     color: #FF7E54;
@@ -134,7 +134,7 @@ video {
 
 .joinus{
     position: absolute;
-    right: 160px;
+    left: 1499px;
     top: 890px;
     width: 157px;
     height: 55px;
@@ -161,4 +161,38 @@ video {
     padding: 10px;
 }
 
+.mouse{
+    position: absolute;
+    left: 936px;
+    top: 894px;
+}
 
+.linea{
+    height: 84px;
+    position: absolute;
+    left: 957px;
+    top: 995px;
+    border-right: 5px solid #FF7E54;
+
+}
+
+.imgevents{
+    height: 100px;
+    width: 150px;
+}
+
+.events-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    
+}
+
+.events-container h1{
+ font-size: 60px;
+ font-family: 'Red Hat Display', sans-serif;
+color: #245086;
+}
