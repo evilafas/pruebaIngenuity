@@ -4,36 +4,37 @@
 
 body {
   margin: 0;
+  
 }
+
+
 
 .header {
   position: fixed;
-  width: 100vw;
-  height: 100px;
+  width: 1920px;
+  height: 120px;
   background-color: #003473;
   opacity: 0.86;
   z-index: 3;
 }
 
 video {
-  margin-top: -150px;
-  width: 100vw;
+  width: 1920px;
   height: 1080px;
 }
 
 .logo {
-  position: relative;
-  top: 10px;
-  left: 10vw;
   height: 87.71px;
   width: 120px;
-
+  margin-left: 176.5px;
+  margin-top: 16.14px;
+  margin-bottom: 16.14px;
 }
 
 .home {
-  position: relative;
-  top: -25px;
-  left: 20vw;
+  position: absolute;
+  left: 530px;
+  top: 51px;
   color: #fafafa;
   text-decoration: none;
   font-size: 18px;
@@ -42,58 +43,60 @@ video {
 .header a {
   color: #fafafa;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   font-family: "Red Hat Display", sans-serif;
 }
 
 .thecrew {
-  position: relative;
-  top: -25px;
-  left: 22vw;
+  position: absolute;
+  left: 680px;
+  top: 51px;
 }
 
 .events {
-  position: relative;
-  left: 24vw;
-  top: -25px;
+  position: absolute;
+  left: 838px;
+  top: 51px;
 }
 
 .news {
-  position: relative;
-  left: 26vw;
-  top: -25px;
+  position: absolute;
+  left: 974px;
+  top: 51px;
 }
 
 .virtualOfice {
-  position: relative;
-  left: 28vw;
-  top: -25px;
+  position: absolute;
+  left: 1147px;
+  top: 42px;
+  width: 70px;
+  text-align: center;
 }
 
 .contact {
-  position: relative;
-  left: 30vw;
-  top: -25px;
+  position: absolute;
+  left: 1298px;
+  top: 51px;
 }
 
 .btnNameHeader {
-  position: relative;
-  left: 32vw;
-  top: -25px;
-  width: 150px;
-  height: 35px;
+  position: absolute;
+  left: 1453px;
+  top: 39px;
+  width: 210px;
+  height: 41px;
   background-color: #5ad3df;
   color: black;
   border-radius: 20px;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .fbicon {
-  position: relative;
-  left: 32vw;
-  top: -25px;
+  position: absolute;
+  left: 1690px;
+  top: 37px;
   background-color: #ff7e54;
   display: inline-block;
   width: 46px;
@@ -109,9 +112,9 @@ video {
 }
 
 .insta {
-  position: relative;
-  left: 40vw;
-  top: -25px;
+  position: absolute;
+  left: 1751px;
+  top: 37px;
   background-color: #ff7e54;
   display: inline-block;
   width: 46px;
@@ -127,8 +130,9 @@ video {
 
 .comment {
   position: absolute;
-  left: 80vw;
-  top: 80vh;
+  top: 775.95px;
+  width: 98.48px;
+  left: 1550px;
   height: 98.48px;
   font-size: 100px;
   color: #ff7e54;
@@ -136,8 +140,8 @@ video {
 
 .joinus {
   position: absolute;
-  left: 75vw;
-  top: 95vh;
+  left: 1499px;
+  top: 890px;
   width: 157px;
   height: 55px;
   background-color: #fafafa;
@@ -163,16 +167,8 @@ video {
 
 .mouse {
   position: absolute;
-  left: 50vw;
-  top: 100vh;
-}
-
-#mousebar{
-  width: 50px;
-  rotate: 90deg;
-  position: absolute;
-  left: 49.8vw;
-  top: 118vh;
+  left: 936px;
+  top: 894px;
 }
 
 .linea {
@@ -184,8 +180,6 @@ video {
 }
 
 .imgevents {
-  position: relative;
-  left: 46vw;
   height: 100px;
   width: 150px;
 }
@@ -193,65 +187,45 @@ video {
 .events-container {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 1920px;
   height: 1080px;
 }
 
 .events-container h1 {
-  position: relative;
-  width: auto;
-  left: 46vw;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Red Hat Display", sans-serif;
   color: #245086;
 }
 
 .gallery {
-  margin-left: -50px;
   display: flex;
+  width: 100%;
+  height: 511px;
   justify-content: center;
-  width: auto;
-  height: auto;
-  gap: 10px;
-  
+  gap: 16px;
 }
 
 .eventsCard {
-  width: 300px;
-  height: 300px;
+  width: 398px;
+  height: 511px;
   border-radius: 20px;
   text-align: center;
-  background-color: #5AD3DF;
-}
-
-#card1{
-background-image: url("sources/event1.jpg");
-background-size: cover;
-filter: brightness(50%);
-}
-#card2{
-  background-image: url("sources/event2.jpg");
-  background-size: cover;
-  filter: brightness(50%);
-}
-#card3{
-  background-image: url("sources/event3.jpg");
-  background-size: cover;
-  filter: brightness(50%);
-}
-#card4{
-  background-image: url("sources/event4.jpg");
-  background-size: cover;
-  filter: brightness(50%);
 }
 
 .eventsCard h1 {
-
+  position: absolute;
+  width: 347px;
+  height: 130px;
+  margin-top: 229px;
+  margin-left: 26px;
+  color: white;
+  z-index: 2;
 }
 
 .eventsCard img {
-  width: 300px;
-  height: 300px;
   border-radius: 20px;
   filter: brightness(70%);
 }
@@ -944,9 +918,9 @@ footer{
 
 .tyc{
   position: relative;
-  top: -300px;
-  left: 600px;
-  width: 500px;
+  margin-top: -270px;
+  left: 300px;
+  width: 600px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
