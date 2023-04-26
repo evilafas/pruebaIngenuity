@@ -8,30 +8,32 @@ body {
 
 .header {
   position: fixed;
-  width: 1920px;
-  height: 120px;
+  width: 100vw;
+  height: 100px;
   background-color: #003473;
   opacity: 0.86;
   z-index: 3;
 }
 
 video {
-  width: 1920px;
+  margin-top: -150px;
+  width: 100vw;
   height: 1080px;
 }
 
 .logo {
+  position: relative;
+  top: 10px;
+  left: 10vw;
   height: 87.71px;
   width: 120px;
-  margin-left: 176.5px;
-  margin-top: 16.14px;
-  margin-bottom: 16.14px;
+
 }
 
 .home {
-  position: absolute;
-  left: 530px;
-  top: 51px;
+  position: relative;
+  top: -25px;
+  left: 20vw;
   color: #fafafa;
   text-decoration: none;
   font-size: 18px;
@@ -40,60 +42,58 @@ video {
 .header a {
   color: #fafafa;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
   font-family: "Red Hat Display", sans-serif;
 }
 
 .thecrew {
-  position: absolute;
-  left: 680px;
-  top: 51px;
+  position: relative;
+  top: -25px;
+  left: 22vw;
 }
 
 .events {
-  position: absolute;
-  left: 838px;
-  top: 51px;
+  position: relative;
+  left: 24vw;
+  top: -25px;
 }
 
 .news {
-  position: absolute;
-  left: 974px;
-  top: 51px;
+  position: relative;
+  left: 26vw;
+  top: -25px;
 }
 
 .virtualOfice {
-  position: absolute;
-  left: 1147px;
-  top: 42px;
-  width: 70px;
-  text-align: center;
+  position: relative;
+  left: 28vw;
+  top: -25px;
 }
 
 .contact {
-  position: absolute;
-  left: 1298px;
-  top: 51px;
+  position: relative;
+  left: 30vw;
+  top: -25px;
 }
 
 .btnNameHeader {
-  position: absolute;
-  left: 1453px;
-  top: 39px;
-  width: 210px;
-  height: 41px;
+  position: relative;
+  left: 32vw;
+  top: -25px;
+  width: 150px;
+  height: 35px;
   background-color: #5ad3df;
   color: black;
   border-radius: 20px;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .fbicon {
-  position: absolute;
-  left: 1690px;
-  top: 37px;
+  position: relative;
+  left: 32vw;
+  top: -25px;
   background-color: #ff7e54;
   display: inline-block;
   width: 46px;
@@ -109,9 +109,9 @@ video {
 }
 
 .insta {
-  position: absolute;
-  left: 1751px;
-  top: 37px;
+  position: relative;
+  left: 40vw;
+  top: -25px;
   background-color: #ff7e54;
   display: inline-block;
   width: 46px;
@@ -127,9 +127,8 @@ video {
 
 .comment {
   position: absolute;
-  top: 775.95px;
-  width: 98.48px;
-  left: 1550px;
+  left: 80vw;
+  top: 80vh;
   height: 98.48px;
   font-size: 100px;
   color: #ff7e54;
@@ -137,8 +136,8 @@ video {
 
 .joinus {
   position: absolute;
-  left: 1499px;
-  top: 890px;
+  left: 75vw;
+  top: 95vh;
   width: 157px;
   height: 55px;
   background-color: #fafafa;
@@ -164,8 +163,16 @@ video {
 
 .mouse {
   position: absolute;
-  left: 936px;
-  top: 894px;
+  left: 50vw;
+  top: 100vh;
+}
+
+#mousebar{
+  width: 50px;
+  rotate: 90deg;
+  position: absolute;
+  left: 49.8vw;
+  top: 118vh;
 }
 
 .linea {
@@ -177,6 +184,8 @@ video {
 }
 
 .imgevents {
+  position: relative;
+  left: 46vw;
   height: 100px;
   width: 150px;
 }
@@ -184,45 +193,65 @@ video {
 .events-container {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
-  align-items: center;
-  justify-content: center;
-  width: 1920px;
+  width: 100vw;
   height: 1080px;
 }
 
 .events-container h1 {
-  font-size: 60px;
+  position: relative;
+  width: auto;
+  left: 46vw;
+  font-size: 50px;
   font-family: "Red Hat Display", sans-serif;
   color: #245086;
 }
 
 .gallery {
+  margin-left: -50px;
   display: flex;
-  width: 100%;
-  height: 511px;
   justify-content: center;
-  gap: 16px;
+  width: auto;
+  height: auto;
+  gap: 10px;
+  
 }
 
 .eventsCard {
-  width: 398px;
-  height: 511px;
+  width: 300px;
+  height: 300px;
   border-radius: 20px;
   text-align: center;
+  background-color: #5AD3DF;
+}
+
+#card1{
+background-image: url("sources/event1.jpg");
+background-size: cover;
+filter: brightness(50%);
+}
+#card2{
+  background-image: url("sources/event2.jpg");
+  background-size: cover;
+  filter: brightness(50%);
+}
+#card3{
+  background-image: url("sources/event3.jpg");
+  background-size: cover;
+  filter: brightness(50%);
+}
+#card4{
+  background-image: url("sources/event4.jpg");
+  background-size: cover;
+  filter: brightness(50%);
 }
 
 .eventsCard h1 {
-  position: absolute;
-  width: 347px;
-  height: 130px;
-  margin-top: 229px;
-  margin-left: 26px;
-  color: white;
-  z-index: 2;
+
 }
 
 .eventsCard img {
+  width: 300px;
+  height: 300px;
   border-radius: 20px;
   filter: brightness(70%);
 }
@@ -387,18 +416,136 @@ video {
   width: 1910px;
   height: 1100px;
   margin-top: 100px;
-  border-radius: 300px / 70px;
   background-image: url("sources/gradient.svg");
-
 }
 
-.divnews hr{
+
+
+#element1{
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  height: 300px;
+  color: #F1F5F8;
+}
+#element2{
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  height: 300px;
+  color: #F1F5F8;
+}
+#element3{
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  height: 300px;
+  color: #F1F5F8;
+}
+#element4{
+  font-family: "Poppins", sans-serif;
+  width: 300px;
+  height: 300px;
+  color: #F1F5F8;
+}
+
+#element1 :nth-child(1){
+  position: relative;
+  left: 50px;
+  top: -570px;
+  font-size: 18px;
+  width: 200px;
+  color: white;
+}
+
+#element1 :nth-child(2){
+  position: relative;
+  left: 50px;
+  top: -600px;
+  font-size: 36px;
+  width: 200px;
+  color: white;
+  
+}
+
+#element1 :nth-child(3){
+  position: relative;
+  left: 50px;
+  top: -900px;
+  font-size: 18px;
+  width: 300px;
+  color: white;
+}
+
+#element1 :nth-child(4){
+  position: relative;
+  left: 100px;
+  top: -900px;
+  color: #003473;
+  background-color: #5AD3DF;
+}
+
+#element2 :nth-child(1){
+  position: relative;
+  left: 50px;
+  top: -420px;
+  font-size: 18px;
+  width: 200px;
+  color: white;
+}
+
+#element2 :nth-child(2){
+  position: relative;
+  left: 50px;
+  top: -450px;
+  font-size: 36px;
+  width: 200px;
+  color: white;
+  
+}
+
+#element3 :nth-child(1){
+  position: relative;
+  left: 50px;
+  top: -420px;
+  font-size: 18px;
+  width: 200px;
+  color: white;
+}
+
+#element3 :nth-child(2){
+  position: relative;
+  left: 50px;
+  top: -450px;
+  font-size: 36px;
+  width: 200px;
+  color: white;
+  
+}
+
+#element4 :nth-child(1){
+  position: relative;
+  left: 50px;
+  top: -420px;
+  font-size: 18px;
+  width: 200px;
+  color: white;
+}
+
+#element4 :nth-child(2){
+  position: relative;
+  left: 50px;
+  top: -450px;
+  font-size: 36px;
+  width: 200px;
+  color: white;
+  
+}
+
+.divnews hr {
   position: absolute;
   left: 832px;
   margin-top: 5px;
 }
 
-.imgnews{
+.imgnews {
   height: 110px;
   width: 110px;
   position: absolute;
@@ -406,7 +553,7 @@ video {
   left: 873px;
 }
 
-.divnews h1{
+.divnews h1 {
   position: absolute;
   margin-top: 200px;
   left: 785px;
@@ -416,12 +563,12 @@ video {
   color: #ff7e54;
 }
 
-.divnews h1 span{
+.divnews h1 span {
   color: white;
   font-weight: bold;
 }
 
-.divnews p{
+.divnews p {
   position: absolute;
   margin-top: 300px;
   left: 785px;
@@ -430,27 +577,25 @@ video {
   font-size: 16px;
 }
 
-.cardsnewsContainer{ 
+.cardsnewsContainer {
   display: flex;
-  gap: 20px; 
+  gap: 20px;
   padding-top: 210px;
   padding-left: 140px;
-  
 }
 
-.newscards{
+.newscards {
   height: 528px;
   width: 398px;
-  
 }
 
-.newscards img{
+.newscards img {
   height: 528px;
   width: 398px;
   border-radius: 30px;
 }
 
-.date{
+.date {
   text-align: center;
   position: relative;
   left: 50px;
@@ -462,7 +607,7 @@ video {
   border-bottom-right-radius: 10px;
 }
 
-.date h2{
+.date h2 {
   position: absolute;
   margin-top: 10px;
   color: white;
@@ -472,12 +617,12 @@ video {
   line-height: 1;
 }
 
-.date h2 span{
+.date h2 span {
   font-size: 50px;
-  font-weight:900;
+  font-weight: 900;
 }
 
-.divnews input{
+.divnews input {
   position: relative;
   left: 850px;
   top: 200px;
@@ -492,8 +637,317 @@ video {
   border-radius: 20px;
 }
 
-.line{
+.patch {
+  position: relative;
+  height: 20px;
+  width: 700px;
+  background-color: white;
+  left: 500px;
+  top: 300px;
+}
+
+.line {
   position: absolute;
   left: 832px;
   margin-top: 5px;
+}
+
+.divmemories {
+  width: 1910px;
+  height: 1100px;
+  margin-top: 100px;
+}
+
+.divmemories hr {
+  margin-top: -145px;
+  margin-left: 45px;
+  width: 100px;
+}
+
+#icon {
+  margin-left: 30px;
+}
+
+.divmemories h1 {
+  position: relative;
+  left: 820px;
+  top: 200px;
+  font-size: 60px;
+  color: #245086;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  top: 200px;
+  height: 500px;
+  margin-left: 220px;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.container img{
+  border-radius: 20px;
+}
+
+.divmemories input{
+  position: relative;
+  left: 850px;
+  top: 320px;
+  width: 210px;
+  height: 41px;
+  color: white;
+  background-color: #5AD3DF;
+  border: none;
+  border-radius: 20px;
+}
+
+.newmanSoundtrack{
+  width: 1910px;
+  height: 600px;
+  background: rgb(42,197,182);
+background: linear-gradient(264deg, rgba(42,197,182,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.newmanSoundtrack img{
+  position: relative;
+  top: -140px;
+}
+
+#spotify{
+  top: -215px;
+}
+
+.newmanSoundtrack h1{
+  position: relative;
+  top: -400px;
+  left: 420px;
+  font-size: 80px;
+  font-family: "Red Hat Display", sans-serif;
+  color: white;
+}
+
+#soundtracklabel{
+  top: -480px;
+  left: 490px;
+}
+
+.form{
+  display: flex;
+ 
+  margin-top: 100px;
+  width: 1640px;
+  height: 755px;
+  background-color: #F5F5F5;
+  margin-left: 140px;
+  border-radius: 30px;
+  padding-left: 53px;
+  padding-top: 60px;
+}
+
+.form h1{
+  
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 107px;
+  font-weight: 500;
+  color: #245086;
+
+}
+.form h1 span{
+  font-weight: bold;
+  color:#ff7e54;
+}
+
+.form p{
+  position: relative;
+  top: -70px;
+  width: 640px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #285C58;
+}
+
+
+
+.formImage{
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.inputs{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  top: -70px;
+  width: 50%;
+  height: 500px;
+}
+
+.inputs input{
+  border: 1px solid #707070;
+  border-radius: 30px;
+  text-align: center;
+  width: 647px;
+  height: 40px;
+}
+
+.inputs input::placeholder{
+  color: #666666;
+  font-family: "Helvetica Neue", sans-serif;
+  opacity: 0.87;
+}
+
+#message{
+  height: 117px;
+}
+
+#message::placeholder{
+  position: absolute;
+  top: 0;
+  left: 45%;  
+}
+
+.inputs input[type="button"] {
+  position: relative;
+  left: 210px;
+  width: 222px;
+  height: 43px;
+  background-color: #ff7e54;
+  border: none;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+
+.imgBadge{
+  position: relative;
+  top: -225px;
+  left: -200px;
+  display: flex;
+  background-color: #ff7e54;
+  width: 124px;
+  height: 158px;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 2;
+}
+
+.imgBadge img{
+  width: 96.54px;
+  height: 43.42px;
+}
+
+footer{
+  height: 500px;
+  background-image: url(sources/footer.png);
+  background-repeat:no-repeat;
+}
+
+.logofooter{
+  position: relative;
+  left: 176px;
+  top: 150px;
+  text-align: center;
+  height: 200px;
+  width: 500px;
+  font-family: Helvetica;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+.socialmedias{
+  position: relative;
+  left: 883px;
+  top: -40px;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+    width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.socialmedias span{
+  position: relative;
+  top: 10px;
+}
+
+.divicons{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  
+}
+.divicons h1{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: white;
+  color: #245086;
+}
+
+.suscribeform{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  position: relative;
+  left: 1280px;
+  width: 550px;
+  height: 300px;
+  top: -250px;
+}
+
+.suscribeform h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#email{
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  margin-top: -30px;
+  margin-left: 30px;
+  border-bottom: 1px solid #ff7e54;
+  background-color: #FAFAFA;
+}
+
+#email::placeholder{
+  text-align: center;
+}
+
+#btnform{
+  width: 222px;
+  height: 43px;
+  border: none;
+  background-color: #ff7e54;
+  border-radius: 30px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  margin-left: 165px;
+}
+
+.tyc{
+  position: relative;
+  top: -300px;
+  left: 600px;
+  width: 500px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
