@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prueba Ingenuity</title>
-    <link rel="stylesheet" href="estilos/styles.css" />
+    <link rel="stylesheet" href="../estilos/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,62 +13,70 @@
   </head>
   <body>
     <div class="header">
-      <img src="sources/logo.svg" alt="logo" class="logo" />
-      <a class="home" href="">HOME</a>
-      <a class="thecrew" href="">THE CREW</a>
-      <a class="events" href="">EVENTS</a>
-      <a class="news" href="">WHAT'S NEW</a>
-      <a class="virtualOfice" href="">VIRTUAL OFICE</a>
-      <a class="contact" href="">CONTACT</a>
-      <input type="button" class="btnNameHeader" value="MARIA REINA PARISH" />
-      <span class="insta">
-        <i class="fa fa-instagram"></i>
-      </span>
-      <span class="fbicon">
-        <i class="fa fa-facebook-f"></i>
-      </span>
+      <img src="../sources/logo.svg" alt="logo" class="logo" />
+      <div class="headercontainer">
+        <a class="home" href="">HOME</a>
+        <a class="thecrew" href="">THE CREW</a>
+        <a class="events" href="">EVENTS</a>
+        <a class="news" href="">WHAT'S NEW</a>
+        <a class="virtualOfice" href="">VIRTUAL OFICE</a>
+        <a class="contact" href="">CONTACT</a>
+        <input type="button" class="btnNameHeader" value="MARIA REINA PARISH" />
+        <span class="insta">
+          <i class="fa fa-instagram"></i>
+        </span>
+        <span class="fbicon">
+          <i class="fa fa-facebook-f"></i>
+        </span>
+      </div>
     </div>
-    <video autoplay muted loop>
-      <source src="sources/Final2.mp4" type="video/mp4" />
-    </video>
-    <img src="sources/comment.png" class="comment" />
-    <div class="joinus">
-      <span class="heartspan"><i class="fa fa-heart-o" class="heart"></i></span>
-      <p>JOIN US</p>
-    </div>
-    <img src="/sources/Grupo971.svg" class="mouse" />
 
+    <section class="video">
+      <video autoplay muted loop>
+        <source src="../sources/Final2.mp4" type="video/mp4" />
+      </video>
+      <img src="../sources/comment.png" class="comment" />
+      <div class="joinus">
+        <span class="heartspan"
+          ><i class="fa fa-heart-o" class="heart"></i
+        ></span>
+        <p>JOIN US</p>
+      </div>
+      <div class="mouse">
+        <img src="/../sources/Grupo971.svg" class="mouse" />
+        <h1>|</h1>
+      </div>
+    </section>
     <div class="events-container">
       <div class="figure"></div>
-      <img src="sources/Grupo54.svg" class="imgevents" />
+      <img src="../sources/Grupo54.svg" class="imgevents" />
       <h1>Events</h1>
       <div class="gallery">
         <div class="eventsCard">
           <h1>Event 1</h1>
-          <img src="sources/event1.jpg" />
+          <img src="../sources/event1.jpg" />
           <hr size="2px" color="#ff7e54" />
         </div>
         <div class="eventsCard">
           <h1>Event 2</h1>
-          <img src="sources/event2.jpg" />
+          <img src="../sources/event2.jpg" />
           <hr size="2px" color="#ff7e54" />
         </div>
         <div class="eventsCard">
           <h1>Event 3</h1>
-          <img src="sources/event3.jpg" />
+          <img src="../sources/event3.jpg" />
           <hr size="2px" color="#ff7e54" />
         </div>
         <div class="eventsCard">
           <h1>Event 4</h1>
-          <img src="sources/event4.jpg" />
+          <img src="../sources/event4.jpg" />
           <hr size="2px" color="#ff7e54" />
         </div>
       </div>
       <input type="button" value="MORE EVENTS" />
       <p>Let's have fun, join us in our events. Find out more here.</p>
+      <h2 id="sep">____________</h2>
     </div>
-    <hr size="2px" color="#ff7e54" class="sep" />
-
     <div class="thecrewContainer">
       <div class="theCrewCard">
         <h1>The <span>crew.</span></h1>
@@ -84,107 +92,112 @@
           to life at Trinity College.
         </p>
         <input type="button" value="LEARN MORE" />
-        <img src="sources/crew.png" alt="crew" />
+        <img src="../sources/crew.png" alt="crew" />
       </div>
       <div class="divcrew">
         <div class="element">
-          <img src="sources/happyface.svg" />
+          <img src="../sources/happyface.svg" />
           <h1>165</h1>
           <p>Happy freshman members</p>
         </div>
         <hr size="2px" />
         <div class="element">
-          <img src="sources/group_FILL0_wght400_GRAD0_opsz48.svg" />
+          <img src="../sources/group_FILL0_wght400_GRAD0_opsz48.svg" />
           <h1>13</h1>
           <p>Wise Señior members</p>
         </div>
         <hr size="2px" />
         <div class="element">
-          <img src="sources/groups_FILL0_wght400_GRAD0_opsz48.svg" />
+          <img src="../sources/groups_FILL0_wght400_GRAD0_opsz48.svg" />
           <h1>173</h1>
           <p>The whole crew</p>
         </div>
       </div>
     </div>
+
     <div class="divnews">
-      <hr size="2px" color="#ff7e54" class="sep" />
-      <img src="sources/Grupo54.svg" class="imgnews" />
-      <h1>What's <span>new</span></h1>
-      <p>Find out about the latest news about our club.</p>
+      <div class="containernew">
+        <img src="../sources/Grupo54.svg" class="imgnews" />
+        <h1>What's <span>new</span></h1>
+        <p>Find out about the latest news about our club.</p>
+      </div>
 
       <div class="cardsnewsContainer">
         <div class="newscards">
+          <img src="../sources/img1.jpg" id="img1" />
           <div class="date">
             <h2><span>12</span><br />Aug 2016</h2>
           </div>
-          <img src="sources/img1.jpg" />
-          <div class="infocardnews" id="element1">
+          <div class="infocardnews" id="item1">
             <p>Jane doe</p>
             <h2>BLOG 1</h2>
-            <p>
+            <p class="lorem">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore.
             </p>
             <input type="button" value="SEE MORE" />
           </div>
         </div>
-
         <div class="newscards">
+          <img src="../sources/img1.jpg" id="img1" />
           <div class="date">
             <h2><span>12</span><br />Aug 2016</h2>
           </div>
-          <img src="sources/img2.jpg" />
-          <div class="infocardnews" id="element2">
+          <div class="infocardnews" id="card">
             <p>Jane doe</p>
             <h2>BLOG 2</h2>
           </div>
         </div>
-
         <div class="newscards">
+          <img src="../sources/img1.jpg" id="img1" />
           <div class="date">
             <h2><span>12</span><br />Aug 2016</h2>
           </div>
-          <img src="sources/img3.jpg" />
-          <div class="infocardnews" id="element3">
+          <div class="infocardnews" id="card">
             <p>Jane doe</p>
             <h2>BLOG 3</h2>
           </div>
         </div>
-
         <div class="newscards">
+          <img src="../sources/img1.jpg" id="img1" />
           <div class="date">
             <h2><span>12</span><br />Aug 2016</h2>
           </div>
-          <img src="sources/img4.jpg" />
-          <div class="infocardnews" id="element4">
+          <div class="infocardnews" id="card">
             <p>Jane doe</p>
             <h2>BLOG 4</h2>
           </div>
         </div>
       </div>
-      <input type="button" value="FIND OUT MORE" />
-      <div class="patch"></div>
     </div>
 
     <div class="divmemories">
-      <img src="sources/Grupo54.svg" class="imgnews" id="icon" />
-      <hr size="2px" color="#ff7e54" class="sep" />
-      <h1>Memories</h1>
+      <div class="memories">
+        <img src="../sources/Grupo54.svg" class="imgnews" />
+        <h1>Memories</h1>
+      </div>
       <div class="container">
-        <div class="item1"><img src="sources/grid1.png" /></div>
-        <div class="item2"><img src="sources/grid2.png" /></div>
-        <div class="item3"><img src="sources/grid3.png" /></div>
-        <div class="item4"><img src="sources/grid4.png" /></div>
-        <div class="item5"><img src="sources/crew.png" /></div>
-        <div class="item6"><img src="sources/grid6.png" /></div>
+        <img src="../sources/grid1.png" />
+        <img src="../sources/grid2.png" />
+        <img src="../sources/grid3.png" />
+        <img src="../sources/grid4.png" />
+        <img src="../sources/crew.png" />
+        <img src="../sources/grid6.png" />
       </div>
       <input type="button" value="MORE MEMORIES" />
     </div>
+
     <div class="newmanSoundtrack">
-      <img src="sources/personSmilling.png" alt="" />
-      <img src="sources/newmanSoundtrack.png" alt="" id="spotify" />
-      <h1>Newman</h1>
-      <h1 id="soundtracklabel">Soundtrack</h1>
+      <div class="pic1">
+        <img src="../sources/personSmilling.png" alt="" />
+        <h1>
+          Newman <br />
+          Soundtrack
+        </h1>
+      </div>
+      <div class="pic2">
+      <img src="../sources/newmanSoundtrack.png" alt="" id="spotify" />
+    </div>
     </div>
     <div class="form">
       <div class="formContent">
@@ -202,16 +215,16 @@
         </div>
       </div>
       <div class="formImage">
-        <img src="sources/online-communication.png" class="formImage" />
+        <img src="../sources/online-communication.png" class="formImage" />
         <div class="imgBadge">
-          <img src="sources/Grupo53.svg" />
+          <img src="../sources/Grupo53.svg" />
         </div>
       </div>
     </div>
 
     <footer>
       <div class="logofooter">
-        <img src="sources/logo.svg" />
+        <img src="../sources/logo.svg" />
         <p>
           Follow us on our social networks and don't miss our latest news and
           events.
@@ -219,10 +232,10 @@
       </div>
       <div class="socialmedias">
         <p>
-          <span><img src="sources/Grupo975.svg" /></span> +57 (322) 374 6739
+          <span><img src="../sources/Grupo975.svg" /></span> +57 (322) 374 6739
         </p>
         <p>
-          <span><img src="sources/Grupo974.svg" /></span> servicio@lurdes.co
+          <span><img src="../sources/Grupo974.svg" /></span> servicio@lurdes.co
         </p>
         <div class="divicons">
           <h1><i class="fa fa-facebook-f"></i></h1>
@@ -235,9 +248,9 @@
         <input type="button" value="SEND" id="btnform" />
       </div>
       <div class="tyc">
-        <p class="tyc">
-          Terms & Conditions | Privacy Policy <br> © Copyright 2020 - 2021 Ingenuity &
-          Solutions LLC All Rights Reserved.
+        <p class="ptyc">
+          Terms & Conditions | Privacy Policy <br />
+          © Copyright 2020 - 2021 Ingenuity & Solutions LLC All Rights Reserved.
         </p>
       </div>
     </footer>

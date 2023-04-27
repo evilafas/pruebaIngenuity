@@ -4,36 +4,40 @@
 
 body {
   margin: 0;
-  
+  width: 100%;
 }
-
-
 
 .header {
   position: fixed;
-  width: 1920px;
+  width: 100%;
   height: 120px;
   background-color: #003473;
   opacity: 0.86;
   z-index: 3;
 }
 
+.headercontainer {
+  margin-left: 20%;
+  margin-top: 3%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
 video {
-  width: 1920px;
+  margin-top: -44px;
+  width: 100%;
   height: 1080px;
 }
 
 .logo {
+  position: absolute;
+  left: 100px;
   height: 87.71px;
   width: 120px;
-  margin-left: 176.5px;
-  margin-top: 16.14px;
-  margin-bottom: 16.14px;
 }
 
 .home {
-  position: absolute;
-  left: 530px;
   top: 51px;
   color: #fafafa;
   text-decoration: none;
@@ -48,40 +52,28 @@ video {
 }
 
 .thecrew {
-  position: absolute;
-  left: 680px;
   top: 51px;
 }
 
 .events {
-  position: absolute;
-  left: 838px;
   top: 51px;
 }
 
 .news {
-  position: absolute;
-  left: 974px;
   top: 51px;
 }
 
 .virtualOfice {
-  position: absolute;
-  left: 1147px;
   top: 42px;
   width: 70px;
   text-align: center;
 }
 
 .contact {
-  position: absolute;
-  left: 1298px;
   top: 51px;
 }
 
 .btnNameHeader {
-  position: absolute;
-  left: 1453px;
   top: 39px;
   width: 210px;
   height: 41px;
@@ -91,11 +83,10 @@ video {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: bold;
+  border: none;
 }
 
 .fbicon {
-  position: absolute;
-  left: 1690px;
   top: 37px;
   background-color: #ff7e54;
   display: inline-block;
@@ -112,9 +103,6 @@ video {
 }
 
 .insta {
-  position: absolute;
-  left: 1751px;
-  top: 37px;
   background-color: #ff7e54;
   display: inline-block;
   width: 46px;
@@ -130,9 +118,9 @@ video {
 
 .comment {
   position: absolute;
-  top: 775.95px;
+  left: 80%;
+  top: 70%;
   width: 98.48px;
-  left: 1550px;
   height: 98.48px;
   font-size: 100px;
   color: #ff7e54;
@@ -140,8 +128,8 @@ video {
 
 .joinus {
   position: absolute;
-  left: 1499px;
-  top: 890px;
+  left: 75%;
+  top: 86%;
   width: 157px;
   height: 55px;
   background-color: #fafafa;
@@ -156,6 +144,7 @@ video {
   font-size: 20px;
   font-weight: bold;
   font-family: "Segoe UI", sans-serif;
+  color: #707070;
 }
 
 .joinus span {
@@ -167,30 +156,30 @@ video {
 
 .mouse {
   position: absolute;
-  left: 936px;
-  top: 894px;
+  left: 50%;
+  top: 117%;
 }
 
-.linea {
-  height: 84px;
+.mouse h1 {
   position: absolute;
-  left: 957px;
-  top: 995px;
-  border-right: 5px solid #ff7e54;
+  color: #ff7e54;
+  font-size: 70px;
+  left: 17px;
+  top: 10px;
 }
 
 .imgevents {
   height: 100px;
   width: 150px;
+  margin-left: 45px;
 }
 
 .events-container {
+  margin-top: -150px;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
   align-items: center;
-  justify-content: center;
-  width: 1920px;
+  width: 100%;
   height: 1080px;
 }
 
@@ -198,29 +187,30 @@ video {
   font-size: 60px;
   font-family: "Red Hat Display", sans-serif;
   color: #245086;
+  margin-left: 40px;
+  z-index: 2;
 }
 
 .gallery {
   display: flex;
   width: 100%;
-  height: 511px;
+  height: auto;
   justify-content: center;
   gap: 16px;
 }
 
 .eventsCard {
-  width: 398px;
-  height: 511px;
+  width: 200px;
+  height: 300px;
   border-radius: 20px;
   text-align: center;
 }
 
 .eventsCard h1 {
   position: absolute;
-  width: 347px;
-  height: 130px;
-  margin-top: 229px;
-  margin-left: 26px;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 50px;
   color: white;
   z-index: 2;
 }
@@ -228,12 +218,13 @@ video {
 .eventsCard img {
   border-radius: 20px;
   filter: brightness(70%);
+  width: 200px;
 }
 
 .eventsCard hr {
   position: relative;
-  top: -120px;
-  width: 64px;
+  top: -80px;
+  width: 40px;
   rotate: 90deg;
 }
 
@@ -257,28 +248,29 @@ video {
 
 .figure {
   position: absolute;
-  left: 1171px;
-  top: 1469px;
-  height: 590px;
-  width: 750px;
+  margin-top: 190px;
+  right: 0;
+  height: 400px;
+  width: 580px;
   background-color: #e3e3e3;
   -webkit-border-radius: 150px 0px 0px 150px;
   -moz-border-radius: 150px 0px 0px 150px;
   border-radius: 150px 0px 0px 150px;
+  z-index: 0;
 }
 
-.sep {
-  position: absolute;
-  left: 865px;
-  width: 189.5px;
-  margin-top: 100px;
+#sep {
+  color: #ff7e54;
   rotate: 90deg;
+  margin-top: 200px;
 }
 
 .thecrewContainer {
-  width: 1920px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   height: 1080px;
-  margin-top: 100px;
+  margin-top: -50px;
   background-color: #f5f5f5;
   z-index: 1;
 }
@@ -286,8 +278,9 @@ video {
 .theCrewCard {
   position: absolute;
   margin-top: 140px;
-  left: 140px;
-  width: 1640px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 1150px;
   height: 711px;
   border-radius: 20px;
   background-color: #fafafa;
@@ -297,11 +290,11 @@ video {
 }
 
 .theCrewCard h1 {
-  font-size: 107px;
+  font-size: 90px;
   font-family: "Red Hat Display", sans-serif;
   color: #154e85;
   font-weight: 400;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 100px;
 }
 
@@ -315,27 +308,27 @@ video {
   height: 41px;
   color: white;
   background-color: #ff7e54;
-  margin-left: 300px;
+  margin-left: 150px;
   border: none;
   border-radius: 20px;
 }
 
 .theCrewCard p {
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: -50px;
-  width: 741px;
+  width: 400px;
   height: 188px;
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Poppins", sans-serif;
   color: #666666;
 }
 
 .theCrewCard img {
-  width: 718px;
-  height: 592px;
+  width: 500px;
+  height: 500px;
   position: absolute;
-  left: 850px;
-  margin-top: -400px;
+  left: 500px;
+  margin-top: -350px;
   border-radius: 40px;
 }
 
@@ -343,14 +336,14 @@ video {
   position: absolute;
   display: flex;
   background-color: #ffffff;
-  height: 252px;
-  width: 554px;
+  height: 200px;
+  width: 550px;
   -webkit-box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 2px 10px -4px rgba(0, 0, 0, 0.75);
   z-index: 2;
   margin-top: 700px;
-  left: 650px;
+  left: 30%;
   border-radius: 20px;
   gap: 10px;
   text-align: center;
@@ -370,57 +363,58 @@ video {
 .element h1 {
   color: #ff7e54;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 63px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
 
 .element p {
   color: #235286;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .divcrew hr {
   margin-top: 70px;
-  height: 127px;
+  height: 100px;
   color: #235286;
 }
 
 .divnews {
-  width: 1910px;
+  width: 100%;
   height: 1100px;
-  margin-top: 100px;
-  background-image: url("sources/gradient.svg");
+  background-image: url("../sources/gradient.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
-#element1{
+#element1 {
   font-family: "Poppins", sans-serif;
   width: 300px;
   height: 300px;
-  color: #F1F5F8;
+  color: #f1f5f8;
 }
-#element2{
+#element2 {
   font-family: "Poppins", sans-serif;
   width: 300px;
   height: 300px;
-  color: #F1F5F8;
+  color: #f1f5f8;
 }
-#element3{
+#element3 {
   font-family: "Poppins", sans-serif;
   width: 300px;
   height: 300px;
-  color: #F1F5F8;
+  color: #f1f5f8;
 }
-#element4{
+#element4 {
   font-family: "Poppins", sans-serif;
   width: 300px;
   height: 300px;
-  color: #F1F5F8;
+  color: #f1f5f8;
 }
 
-#element1 :nth-child(1){
+#element1 :nth-child(1) {
   position: relative;
   left: 50px;
   top: -570px;
@@ -429,17 +423,16 @@ video {
   color: white;
 }
 
-#element1 :nth-child(2){
+#element1 :nth-child(2) {
   position: relative;
   left: 50px;
   top: -600px;
   font-size: 36px;
   width: 200px;
   color: white;
-  
 }
 
-#element1 :nth-child(3){
+#element1 :nth-child(3) {
   position: relative;
   left: 50px;
   top: -900px;
@@ -448,15 +441,15 @@ video {
   color: white;
 }
 
-#element1 :nth-child(4){
+#element1 :nth-child(4) {
   position: relative;
   left: 100px;
   top: -900px;
   color: #003473;
-  background-color: #5AD3DF;
+  background-color: #5ad3df;
 }
 
-#element2 :nth-child(1){
+#element2 :nth-child(1) {
   position: relative;
   left: 50px;
   top: -420px;
@@ -465,17 +458,16 @@ video {
   color: white;
 }
 
-#element2 :nth-child(2){
+#element2 :nth-child(2) {
   position: relative;
   left: 50px;
   top: -450px;
   font-size: 36px;
   width: 200px;
   color: white;
-  
 }
 
-#element3 :nth-child(1){
+#element3 :nth-child(1) {
   position: relative;
   left: 50px;
   top: -420px;
@@ -484,17 +476,16 @@ video {
   color: white;
 }
 
-#element3 :nth-child(2){
+#element3 :nth-child(2) {
   position: relative;
   left: 50px;
   top: -450px;
   font-size: 36px;
   width: 200px;
   color: white;
-  
 }
 
-#element4 :nth-child(1){
+#element4 :nth-child(1) {
   position: relative;
   left: 50px;
   top: -420px;
@@ -503,49 +494,42 @@ video {
   color: white;
 }
 
-#element4 :nth-child(2){
+#element4 :nth-child(2) {
   position: relative;
   left: 50px;
   top: -450px;
   font-size: 36px;
   width: 200px;
   color: white;
-  
-}
-
-.divnews hr {
-  position: absolute;
-  left: 832px;
-  margin-top: 5px;
 }
 
 .imgnews {
   height: 110px;
   width: 110px;
-  position: absolute;
-  margin-top: 100px;
-  left: 873px;
 }
 
-.divnews h1 {
-  position: absolute;
-  margin-top: 200px;
-  left: 785px;
+.containernew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.containernew h1 {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: lighter;
   color: #ff7e54;
 }
 
-.divnews h1 span {
+.containernew h1 span {
   color: white;
   font-weight: bold;
 }
 
-.divnews p {
-  position: absolute;
-  margin-top: 300px;
-  left: 785px;
+.containernew p {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -553,29 +537,42 @@ video {
 
 .cardsnewsContainer {
   display: flex;
+  justify-content: center;
   gap: 20px;
-  padding-top: 210px;
-  padding-left: 140px;
+  width: 100%;
+  height: 300px;
+  padding-top: 40px;
 }
 
 .newscards {
-  height: 528px;
-  width: 398px;
+  height: 250px;
+  width: 250px;
 }
 
-.newscards img {
-  height: 528px;
-  width: 398px;
-  border-radius: 30px;
+.newscards p {
+  font-size: 10px;
+  margin-top: -60px;
+}
+
+.lorem {
+  width: 200px;
+}
+
+#img1 {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: 0;
+  border-radius: 20px;
 }
 
 .date {
   text-align: center;
   position: relative;
-  left: 50px;
-  top: 157px;
-  height: 157px;
-  width: 98px;
+  left: 20px;
+  top: 0px;
+  height: 80px;
+  width: 60px;
   background-color: #ff7e54;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -586,38 +583,50 @@ video {
   margin-top: 10px;
   color: white;
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 200;
+  font-size: 20px;
   line-height: 1;
 }
 
 .date h2 span {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 900;
 }
 
 .divnews input {
-  position: relative;
-  left: 850px;
-  top: 200px;
-  width: 210px;
-  height: 41px;
+  width: 200px;
+  height: 25px;
   color: white;
   font-family: Helvetica;
   font-weight: bold;
-  font-size: 16px;
-  background-color: #ff7e54;
+  font-size: 12px;
+  background-color: #5ad3df;
   border: none;
   border-radius: 20px;
+  margin-left: 5px;
 }
 
-.patch {
+.infocardnews {
   position: relative;
-  height: 20px;
-  width: 700px;
-  background-color: white;
-  left: 500px;
-  top: 300px;
+  width: 300px;
+  font-family: "poppins";
+  color: white;
+  padding-left: 20px;
+  top: 5px;
+}
+
+#item1 {
+  margin-top: 55px;
+}
+
+#item1 :nth-child(2) {
+  margin-top: -5px;
+}
+#item1 :nth-child(3) {
+  margin-top: -10px;
+}
+#card {
+  top: 150px;
 }
 
 .line {
@@ -627,131 +636,150 @@ video {
 }
 
 .divmemories {
-  width: 1910px;
+  width: 100%;
   height: 1100px;
-  margin-top: 100px;
+  margin-top: -200px;
 }
 
-.divmemories hr {
-  margin-top: -145px;
-  margin-left: 45px;
-  width: 100px;
-}
-
-#icon {
-  margin-left: 30px;
-}
-
-.divmemories h1 {
+.memories {
   position: relative;
-  left: 820px;
-  top: 200px;
-  font-size: 60px;
+  left: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
   color: #245086;
   font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
 }
 
 .container {
-  display: flex;
-  position: relative;
-  top: 200px;
-  height: 500px;
-  margin-left: 220px;
-  flex-wrap: wrap;
-  gap: 10px;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea tres columnas iguales */
+  grid-template-rows: repeat(2, auto); /* Crea dos filas de altura automática */
+  grid-template-rows: 200px 300px 250px;
+  grid-gap: 5px; /* Agrega un espacio entre las imágenes */
+  max-width: 900px; /* Establece un ancho máximo para el contenedor */
+  margin: 0 auto; /* Centra el contenedor */
 }
 
-.container img{
-  border-radius: 20px;
+.container img {
+  width: 300px; /* La imagen ocupa todo el espacio del contenedor */
+  height: 200px; /* La altura se ajusta automáticamente para mantener la proporción */
+  border-radius: 10px;
 }
 
-.divmemories input{
-  position: relative;
-  left: 850px;
-  top: 320px;
+.divmemories input {
+  position: absolute;
+  margin-top: -200px;
+  left: 45%;
   width: 210px;
   height: 41px;
   color: white;
-  background-color: #5AD3DF;
+  background-color: #5ad3df;
   border: none;
   border-radius: 20px;
 }
 
-.newmanSoundtrack{
-  width: 1910px;
+.newmanSoundtrack {
+  width: 100%;
+  height: 400px;
+  background: rgb(42, 197, 182);
+  background: linear-gradient(
+    264deg,
+    rgba(42, 197, 182, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+
+  display: flex;
+  margin-top: -20px;
+}
+
+.pic1{
+  width: 50%;
+
+}
+
+.pic2{
+  width: 50%;
+
+  display: flex;
+}
+.pic2 img{
+  position: absolute;
+  margin-top: 50px;
+  left: 60%;
+  width: 300px;
+  height: 300px;
+}
+.pic1 img{
+  width: 50%;
   height: 600px;
-  background: rgb(42,197,182);
-background: linear-gradient(264deg, rgba(42,197,182,1) 0%, rgba(0,0,0,1) 100%);
+  margin-top: -200px;
+  position: absolute;
+  left: -20px;
+  z-index: 0;
 }
-
-.newmanSoundtrack img{
-  position: relative;
-  top: -140px;
-}
-
-#spotify{
-  top: -215px;
-}
-
-.newmanSoundtrack h1{
-  position: relative;
-  top: -400px;
-  left: 420px;
-  font-size: 80px;
+.pic1 h1 {
+  position: absolute;
+  font-size: 60px;
   font-family: "Red Hat Display", sans-serif;
   color: white;
+  margin-top: 200px;
+  left: 15%;
 }
 
-#soundtracklabel{
-  top: -480px;
-  left: 490px;
-}
 
-.form{
+
+.form {
   display: flex;
- 
+  justify-content: center;
   margin-top: 100px;
-  width: 1640px;
-  height: 755px;
+  width: 80%;
+  height: 600px;
   background-color: #F5F5F5;
-  margin-left: 140px;
-  border-radius: 30px;
-  padding-left: 53px;
-  padding-top: 60px;
+  margin-left: 5%;
+  padding-left: 5%;
+  margin-right: 5%;
+  border-radius: 20px;
 }
 
-.form h1{
-  
+.formContent{
+  width: 50%;
+}
+
+.formContent h1 {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 107px;
+  font-size: 90px;
   font-weight: 500;
   color: #245086;
-
 }
-.form h1 span{
+.formContent h1 span {
   font-weight: bold;
-  color:#ff7e54;
+  color: #ff7e54;
 }
 
-.form p{
+.formContent p {
   position: relative;
   top: -70px;
-  width: 640px;
+  width: 400px;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  color: #285C58;
+  font-size: 15px;
+  color: #285c58;
 }
 
-
-
-.formImage{
+.formImage {
   display: flex;
   align-items: center;
   padding-left: 50px;
 }
+.formImage img{
+  width: 600px;
+}
 
-.inputs{
+.inputs {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -761,33 +789,33 @@ background: linear-gradient(264deg, rgba(42,197,182,1) 0%, rgba(0,0,0,1) 100%);
   height: 500px;
 }
 
-.inputs input{
+.inputs input {
   border: 1px solid #707070;
   border-radius: 30px;
   text-align: center;
-  width: 647px;
+  width: 400px;
   height: 40px;
 }
 
-.inputs input::placeholder{
+.inputs input::placeholder {
   color: #666666;
   font-family: "Helvetica Neue", sans-serif;
   opacity: 0.87;
 }
 
-#message{
+#message {
   height: 117px;
 }
 
-#message::placeholder{
+#message::placeholder {
   position: absolute;
   top: 0;
-  left: 45%;  
+  left: 45%;
 }
 
 .inputs input[type="button"] {
   position: relative;
-  left: 210px;
+  left: 50%;
   width: 222px;
   height: 43px;
   background-color: #ff7e54;
@@ -797,15 +825,14 @@ background: linear-gradient(264deg, rgba(42,197,182,1) 0%, rgba(0,0,0,1) 100%);
   color: white;
 }
 
-
-.imgBadge{
+.imgBadge {
   position: relative;
-  top: -225px;
-  left: -200px;
+  top: -167px;
+  left: -150px;
   display: flex;
   background-color: #ff7e54;
-  width: 124px;
-  height: 158px;
+  width: 100px;
+  height: 138px;
   align-items: center;
   justify-content: center;
   border-bottom-left-radius: 10px;
@@ -813,53 +840,52 @@ background: linear-gradient(264deg, rgba(42,197,182,1) 0%, rgba(0,0,0,1) 100%);
   z-index: 2;
 }
 
-.imgBadge img{
+.imgBadge img {
   width: 96.54px;
   height: 43.42px;
 }
 
-footer{
+footer {
   height: 500px;
-  background-image: url(sources/footer.png);
-  background-repeat:no-repeat;
+  background-image: url(../sources/footer.png);
+  background-repeat: no-repeat;
 }
 
-.logofooter{
+.logofooter {
   position: relative;
-  left: 176px;
+  left: 10%;
   top: 150px;
   text-align: center;
   height: 200px;
-  width: 500px;
+  width: 300px;
   font-family: Helvetica;
-  font-size: 26px;
-  color: #FFFFFF;
+  font-size: 15px;
+  color: #ffffff;
 }
 
-.socialmedias{
+.socialmedias {
   position: relative;
-  left: 883px;
+  left: 40%;
   top: -40px;
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
-    width: 200px;
+  width: 200px;
   height: 200px;
   text-align: center;
 }
 
-.socialmedias span{
+.socialmedias span {
   position: relative;
   top: 10px;
 }
 
-.divicons{
+.divicons {
   display: flex;
   gap: 50px;
   justify-content: center;
-  
 }
-.divicons h1{
+.divicons h1 {
   width: 60px;
   height: 60px;
   display: flex;
@@ -870,41 +896,44 @@ footer{
   color: #245086;
 }
 
-.suscribeform{
+.suscribeform {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
   position: relative;
-  left: 1280px;
-  width: 550px;
-  height: 300px;
-  top: -250px;
+  left: 70%;
+  width: 300px;
+  height: 250px;
+  top: -260px;
+
 }
 
-.suscribeform h2{
+.suscribeform h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
 }
 
-#email{
-  width: 500px;
-  height: 50px;
+#email {
+  width: 400px;
+  height: 30px;
   border: none;
   border-radius: 30px;
   margin-top: -30px;
   margin-left: 30px;
   border-bottom: 1px solid #ff7e54;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
-#email::placeholder{
+#email::placeholder {
   text-align: center;
 }
 
-#btnform{
+#btnform {
   width: 222px;
   height: 43px;
   border: none;
@@ -913,15 +942,14 @@ footer{
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  margin-left: 165px;
+  margin-left: 10%;
 }
 
-.tyc{
-  position: relative;
-  margin-top: -270px;
-  left: 300px;
-  width: 600px;
-  text-align: center;
+.tyc {
+  width: 100%;
+  height: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  margin-top: -230px;
+  text-align: center;
 }
