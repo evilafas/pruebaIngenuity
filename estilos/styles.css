@@ -24,6 +24,27 @@ body {
   justify-content: space-around;
 }
 
+.mobileMenu{
+  display: none;
+  position: absolute;
+  left: 70%;
+}
+
+@media (max-width: 767px) {
+  .headercontainer{
+    display: none;
+  }
+
+  .mobileMenu{
+    display: block;
+  }
+
+  .video{
+    background-color: #235286;
+    width: 100vw;
+  }
+}
+
 video {
   margin-top: -44px;
   width: 100%;
